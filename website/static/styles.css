@@ -1,0 +1,12 @@
+.profile-image {
+    width: 200px; /* Adjust as needed */
+    border-radius: 50, 50%; /* This makes the image circular */
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2); /* This adds a shadow effect to the image */
+}
+
+.img-fluid {
+    border-radius: 50%; /* Makes the image circular */
+    pointer-events: none; /* Disables interactions */
+    user-select: none; /* Prevents selection */
+    display: block; /* Makes image a block element */
+}
